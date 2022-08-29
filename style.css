@@ -41,7 +41,7 @@
 .card{
     text-align: center;
     margin-top: 3rem;
-    margin-left: 13%;
+    margin-left: 0;
     float: left;
 }
 .card-img-top1{
