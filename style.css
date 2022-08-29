@@ -1,0 +1,99 @@
+.sec1{
+    background: rgb(95 95 95);
+}
+.photo{
+    width: 20rem;
+    margin: 0 auto;
+}
+.font1{
+    color:#ced0d0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.6em;
+}
+.font2{
+    color:#e0e0e0;
+    font-family: 'Pacifico', cursive;
+    font-size:1.5em;
+    text-align:end;
+    margin-right: 50%;
+}
+.font3{
+    color:#e0e0e0;
+    font-family: 'Pacifico', cursive;
+    font-size:1.5em;
+    text-align:end;
+    margin-right: 25%;
+}
+.font4{
+    color:#b0b0b0;
+    font-style: italic;
+    font-size:1.5em;
+    text-align:end;
+    margin-right: 15%;
+    padding-bottom: 2%;
+}
+.text1{
+    color: #d3ba8f;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+.card{
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 13%;
+    float: left;
+}
+.card-img-top1{
+    background-color: #9c9999;
+    width: auto;
+    height: 16em;
+}
+.card-img-top2{
+    padding: 3rem;
+    background-color: #9c9999;
+    width: auto;
+    height: 16em;
+    padding-bottom: 2rem;
+}
+
+.card-body{
+    background-color:#9c9999;
+}
+.preview{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ded4a6;
+    float: left;
+    margin-left: 20%;
+    
+}
+.img1{
+    margin-top: 1.5rem;
+    width: 50rem;
+    height: 350rem;
+}
+.img2{
+    margin-top: 1.5rem;
+    width: 50rem;
+    height: 350rem;
+}
+.text2{
+    color: #d3ba8f;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+    padding-top: 1.5em;
+    padding-bottom:1rem;
+}
+.card-img-top3{
+
+    background-color: #9b9c9d;
+}
+.text3{
+    color: #d3ba8f;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom:1rem;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.imvzLuLpDhQ_SBBnUa1FUAHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" type="image/icon type">
+</head>
+<body>
+
+    <div class="main">
+        <div class="frame">
+            <div>
+                <input type="text" id="screen">
+            </div>
+            <div>
+                <div>
+                    <button class="back" onclick="backSpace()"><</button>
+                    <button class="clear" onclick="clearValue()">C</button>
+                </div>
+                <div class="row">
+                    <button onclick="getdata(7)" class="button" >7</button>
+                    <button class="button" onclick="getdata(8)">8</button>
+                    <button class="button" onclick="getdata(9)">9</button>
+                    <button class="button" onclick="getdata('/')">/</button>
+                    
+                </div>
+                <div class="row">
+                    <button class="button" onclick="getdata(4)">4</button>
+                    <button class="button" onclick="getdata(5)">5</button>
+                    <button class="button" onclick="getdata(6)">6</button>
+                    <button class="button" onclick="getdata('*')">x</button>
+                    
+                </div>
+                <div class="row">
+                    <button class="button" onclick="getdata(3)">3</button>
+                    <button class="button" onclick="getdata(2)">2</button>
+                    <button class="button" onclick="getdata(1)">1</button>
+                    <button class="button" onclick="getdata('-')">-</button>
+                    
+                </div>
+                <div class="row">
+                    <button class="button" onclick="getdata('.')">.</button>
+                    <button class="button" onclick="getdata(0)">0</button>
+                    <button class="button" onclick="getdata('+')">+</button>
+                    <button class="button" onclick="equalto('=')">=</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
